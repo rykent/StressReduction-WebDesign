@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link href="style.css" rel=stylesheet type=text/css>
+	<title>Stress Reduction</title>
+	<script type=text/javascript src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+            $(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});
+        </script>
+</head>
+<body>
+	<div class="navbar">
+		<a class="active" href="#titleSlide">Home</a>
+		<a href="lookingforwardto.html">What I'm Looking Forward To</a>
+	</div>
+	<div>
+		<div id="titleSlide">
+			<h1>How I deal with stress</h1>
+			<a href="#mtbSlide">Continue<br>|<br>\/</a>
+		</div>
+		<div id="mtbSlide">
+			<div class="infobox" id="mtbSlideBox">
+				<h2 id="mtbSlideTitle">Mountain Biking</h2>
+				<p id="mtbSlideText">Mountain Biking is one way I have been reducing my stress during this time. It helps me relax and I can get out of the house without much risk of getting coronavirus. I plan to keep doing this to reduce stress as it has been very helpful to me.</p>
+				<a href="#gameSlide">Continue<br>|<br>\/</a>
+			</div>
+		</div>
+		<div id="gameSlide">
+			<div class="infobox" id="gameSlideBox">
+				<h2 id="gameSlideTitle">Video Games</h2>
+				<p id="gameSlideText">Video games have been a great stress reducer my whole life and now they are even more useful because of the shelter in place and everything else that is going on right now.</p>
+			</div>
+			<img style="position: absolute; bottom: -2000px; left: 700px;" height=50% src="https://cdn.onlinewebfonts.com/svg/img_555493.png">
+		</div>
+	</div>
+</body>
+</html>

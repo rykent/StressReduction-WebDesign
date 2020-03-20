@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+body {
+	margin: 0;
+	font-family: 'Roboto', sans-serif;
+	background: #FAFAFA;
+}
+
+#titleSlide {
+	text-align: center;
+	height: 1080px;
+	overflow: hidden;
+}
+#titleSlide h1 {
+	font-size: 90px;
+}
+
+#titleSlide a {
+	font-size: 60px;
+	text-decoration: none;
+	color: black;
+
+}
+
+.navbar {
+	position: fixed;
+	background: #313131;
+	display: inline-block;
+	width: 100%;
+	font-size:20px;
+	top:0;
+}
+
+.navbar a {
+	text-decoration: none;
+	color: white;
+	text-align: center;
+	padding: 10px;
+	float: left;
+}
+
+.navbar a:hover {
+	background: white;
+	color: #313131;
+}
+
+#mtbSlide {
+	background: url('https://images.singletracks.com/blog/wp-content/uploads/2012/12/34594b07-0-e1355415526843.jpg') 50% 0 no-repeat fixed;
+	height:1000px;
+	background-size:cover;
+	padding: 20px 0;
+	overflow: hidden;
+}
+#mtbSlideBox {
+	position: absolute;
+	left: 200px;
+	bottom: -1000px;
+	text-align: center;
+}
+#mtbSlide a {
+	color: white;
+	text-decoration: none;
+	text-align: center;
+}
+
+.infobox {
+	background: #313131;
+	color: white;
+	width: 400px;
+	padding: 10px;
+	border-radius: 10px;
+}
+.infobox h2 {
+	font-size: 50px;
+	text-align: center;
+}
+.infobox p {
+	font-size: 20px;
+}
+
+#gameSlide {
+	background: #404e4d;
+	overflow: hidden;
+	height:800px;
+	margin: 0 auto;
+	padding: 20px 0;
+}
+#gameSlideBox {
+	position: absolute;
+	left:200px;
+	bottom: -2000px;
+}
